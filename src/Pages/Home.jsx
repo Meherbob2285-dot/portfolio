@@ -24,8 +24,8 @@ const Home = () => {
             I bridge the gap between complex backend logic and intuitive frontend design.
           </p>
           <div className="hero-btns">
-            <a href="#projects" className="btn-primary">View My Work</a>
-            <a href="/Bob_Meher_Resume.pdf" target="_blank" className="btn-secondary">
+            <a href="/portfolio/#projects" className="btn-primary">View My Work</a>
+            <a href="/portfolio/Bob_Meher_Resume.pdf" target="_blank" className="btn-secondary">
               Resume <i className="fas fa-download"></i>
             </a>
           </div>
