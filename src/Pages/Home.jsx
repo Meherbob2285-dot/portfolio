@@ -2,6 +2,7 @@ import React from 'react';
 import Background from '../Components/Background';
 import { skills, projects, experience, contactInfo } from '../data';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
             I bridge the gap between complex backend logic and intuitive frontend design.
           </p>
           <div className="hero-btns">
-            <a href="/portfolio/#projects" className="btn-primary">View My Work</a>
+            <HashLink smooth to="/#projects" className="btn-primary">View My Work</HashLink>
             <a href="/portfolio/Bob_Meher_Resume.pdf" target="_blank" className="btn-secondary">
               Resume <i className="fas fa-download"></i>
             </a>

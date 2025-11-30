@@ -1,29 +1,29 @@
-// src/components/Navbar.jsx
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = ({ theme, toggleTheme }) => {
-  const location = useLocation();
-  const isHome = location.pathname === '/';
-
   return (
     <nav className={`navbar ${theme}`}>
-      <Link to="/" className="logo">MB.</Link>
+      {/* Scroll to top when clicking Logo */}
+      <HashLink smooth to="/#hero" className="logo">MB.</HashLink>
+      
       <ul className="nav-links">
-        {/* If on Home, scroll to ID. If not, go to Home then scroll. */}
-        <li><a href={isHome ? "#about" : "/#about"}>About</a></li>
-        <li><a href={isHome ? "#experience" : "/#experience"}>Experience</a></li>
-        <li><a href={isHome ? "#projects" : "/#projects"}>Projects</a></li>
-        <li><a href={isHome ? "#skills" : "/#skills"}>Skills</a></li>
+        {/* HashLink handles the "Go to Home THEN Scroll" logic automatically */}
+        <li><HashLink smooth to="/#about">About</HashLink></li>
+        <li><HashLink smooth to="/#experience">Experience</HashLink></li>
+        <li><HashLink smooth to="/#projects">Projects</HashLink></li>
+        <li><HashLink smooth to="/#skills">Skills</HashLink></li>
         
-        {/* Theme Toggle Button */}
+        {/* Theme Toggle */}
         <li>
           <button onClick={toggleTheme} className="theme-btn">
             {theme === 'dark' ? <i className="fas fa-sun"></i> : <i className="fas fa-moon"></i>}
           </button>
         </li>
         
-        <li><a href="#contact" className="btn-primary">Contact</a></li>
+        {/* Contact Link */}
+        <li><HashLink smooth to="/#contact" className="btn-primary">Contact</HashLink></li>
       </ul>
     </nav>
   );
