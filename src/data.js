@@ -38,7 +38,7 @@ export const experience = [
     id: "accenture",
     role: "Software Engineering Intern",
     company: "Accenture, Singapore",
-    period: "Aug 2025 - Dec 2025",
+    period: "Sep 2023 - Present",
     summary: "Contributing to a centralized government portal for agencies like HDB, JTC, and PUB.",
     overview: "Operating within the Phase 3 Integrations team for a large-scale Singapore government digital transformation project. The goal is to build a centralized online portal unifying services for agencies such as HDB, JTC, and PUB.",
     responsibilities: [
