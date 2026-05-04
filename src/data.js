@@ -10,20 +10,20 @@ export const skills = [
   {
     category: "Frontend Development",
     icon: "fa-laptop-code",
-    color: "#64ffda",
-    items: ["React", "HTML/CSS", "JavaScript", "Bootstrap", "Tailwind", "Figma", "ExoPlayer", "Responsive UI", "MVVM"]
+    color: "#00bfff",
+    items: ["React", "HTML/CSS", "JavaScript", "Bootstrap", "Tailwind", "Figma", "ExoPlayer", "Responsive UI", "MVVM","Typescript"]
   },
   {
     category: "Backend Development",
     icon: "fa-server",
     color: "#8080ff",
-    items: ["Python", "Java", "C(Beginner)", "Flask", "Node.js", "Spring Boot", "REST API", "JWT", "OpenAI API", "Session Tokens", "Email Authentication"]
+    items: ["Python", "Java", "C(Beginner)", "Flask", "Node.js", "Spring Boot", "REST API", "JWT", "OpenAI API", "Session Tokens", "Email Authentication", "TorchScript"]
   },
   {
-    category: "Database & Cloud",
-    icon: "fa-cloud",
-    color: "#ff80bf",
-    items: ["MongoDB", "Firebase", "NoSQL", "SQL", "RTMP/HLS", "AWS", "Docker", "Containerization", "Cloud Hosting"]
+  category: "Database, Cloud & Machine Learning",
+  icon: "fa-brain",
+  color: "#ff80bf",
+  items: ["Kaggle", "MongoDB", "Firebase", "NoSQL", "SQL", "RTMP/HLS", "AWS", "Docker", "Cloud Hosting", "XGBoost", "LightGBM", "PyTorch", "scikit-learn", "pandas", "NumPy", "Tableau", "Amplitude", "NDCG / Ranking Metrics", "ViT / Transformers", "FastAPI"]
   },
   {
     category: "Tools & Methods",
@@ -112,7 +112,7 @@ export const experience = [
 export const projects = [
   {
     id: "matchandgo",
-    title: "Match & Go! — Multimodal Travel Recommender",
+    title: "Match & Go! — Multi-modal Travel Recommender",
     subtitle: "Learning-to-Rank ML System with Full-Stack Integration",
     period: "Jan 2026 – May 2026",
     tech: ["Python", "XGBoost", "LightGBM", "FastAPI", "React", "Vite", "TypeScript", "Tailwind CSS"],
