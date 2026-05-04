@@ -21,7 +21,7 @@ const Home = () => {
           <h1>Meher Bob.</h1>
           <h2 className="hero-subtitle">I build intelligent digital experiences.</h2>
           <p className="hero-desc">
-            Computer Science Student at SUTD specializing in AI & Data Analytics. 
+            Computer Science Student at SUTD specializing in AI, Data Analytics & Financial Technology. 
             I bridge the gap between complex backend logic and intuitive frontend design.
           </p>
           <div className="hero-btns">
@@ -38,14 +38,14 @@ const Home = () => {
         <div className="about-layout">
           <div className="about-narrative">
             <p>
-              I am a third-year undergraduate specializing in <strong>Artificial Intelligence and Data Analytics</strong>. 
+              I am a third-year undergraduate specializing in <strong>Artificial Intelligence, Data Analytics & Financial Technology</strong>. 
               My academic journey is defined by a curiosity for how data shapes user experiences. 
               I thrive in environments that challenge me to integrate rigorous research—like my work on 
-              AI code detection—with practical, full-stack application development.
+              AI content detection for child safety and predicting travel recommendations based on user preference—with practical, full-stack application development.
             </p>
             <p>
               Currently, I am looking for internship opportunities where I can apply my skills in 
-              software engineering and data analysis to solve real-world problems.
+              AI and data analytics to solve real-world problems.
             </p>
           </div>
           
@@ -55,7 +55,7 @@ const Home = () => {
               <h4>SUTD</h4>
               <p>B.Eng Computer Science & Design</p>
               <div className="tech-pill">Undergraduate Merit Scholar</div>
-              <div className="tech-pill">CGPA: 3.4/5.0</div>
+              <div className="tech-pill">CGPA: 3.6/5.0</div>
             </div>
             <div className="detail-card">
               <span className="period">2021 - 2023</span>
@@ -130,7 +130,7 @@ const Home = () => {
             <a href={`tel:${contactInfo.phone}`}><i className="fas fa-phone"></i> {contactInfo.phone}</a>
             <a href={contactInfo.linkedin} target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i> LinkedIn</a>
         </div>
-        <p style={{marginTop: '30px', fontSize: '0.9rem'}}>&copy; 2025 Meher Bob.</p>
+        <p style={{marginTop: '30px', fontSize: '0.9rem'}}>&copy; 2026 Meher Bob.</p>
       </footer>
     </>
   );
