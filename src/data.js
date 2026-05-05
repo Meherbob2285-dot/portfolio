@@ -165,7 +165,7 @@ export const projects = [
   },
   {
     id: "Ascenda — hotel-booking",
-    title: "Hotel Booking Platform",
+    title: "Ascenda - Hotel Booking Platform",
     subtitle: "Full-Stack Microservices Architecture",
     videoID: "Q79fLEAsttA",
     tech: ["React", "Node.js", "Docker", "Microservices", "Stripe", "MongoDB"],
